@@ -1,5 +1,5 @@
 <template>
-  <div class="section">
+  <!-- <div class="section">
     <div class="container">
       <h1 class="title">Welcome to Bulma Example</h1>
       <p class="subtitle">A simple example using Bulma CSS framework</p>
@@ -20,5 +20,6 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+  王浩文
 </template>
