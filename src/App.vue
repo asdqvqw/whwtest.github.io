@@ -18,7 +18,7 @@ onMounted(() => {
     ctx = canvas.getContext('2d');
     heartImage = new Image();
     // 绘制爱心svg
-    heartImage.src = '/heart-rate.svg';
+    heartImage.src = require('./heart-rate.svg');
     // 初始化方法
     init();
   })
