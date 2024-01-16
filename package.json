@@ -1,5 +1,5 @@
 {
-  "name": "xixi",
+  "name": "qqqq",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,10 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "bulma": "^0.9.4",
-    "bundler": "^0.8.0",
     "core-js": "^3.8.3",
-    "jekyll": "^3.0.0-beta1",
     "vue": "^3.2.13"
   },
   "devDependencies": {

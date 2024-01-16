@@ -1,25 +1,26 @@
 <template>
-  <!-- <div class="section">
-    <div class="container">
-      <h1 class="title">Welcome to Bulma Example</h1>
-      <p class="subtitle">A simple example using Bulma CSS framework</p>
-      
-      <div class="columns">
-        <div class="column">
-          <div class="box">
-            <p class="title is-4">Column 1</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-        
-        <div class="column">
-          <div class="box">
-            <p class="title is-4">Column 2</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  王浩文
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
