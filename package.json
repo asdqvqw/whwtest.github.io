@@ -1,5 +1,5 @@
 {
-  "name": "whw",
+  "name": "wang",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "echarts": "^5.4.3",
+    "three": "^0.159.0",
+    "three-dracoloader": "^0.0.1",
     "vue": "^3.2.13"
   },
   "devDependencies": {
@@ -18,7 +21,9 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "naive-ui": "^2.36.0",
+    "vfonts": "^0.0.3"
   },
   "eslintConfig": {
     "root": true,
