@@ -93,3 +93,35 @@ import()内为vue程序代码实际路径
 ```
 
 可以在逻辑中通过按钮等实现页面跳转
+
+
+### 内嵌与外联
+
+需要将文档放到外网以便访问
+
+```
+{
+  title: "平台文档",
+  iconName: "svg:aligncenter-fill.svg",
+  childs: [
+    {
+      title: "VUE3文档(外联)",
+      iconName: "svg:friendship.svg",
+      isLink: true,
+      path: "https://cn.vuejs.org/guide/introduction.html",
+    },
+    {
+      path: `/main/iframe/vue?src=${encodeURIComponent(
+        "https://cn.vuejs.org/guide/introduction.html"
+      )}`,
+      title: "VUE3文档(内嵌)",
+      content: "",
+      iconName: "img:vue.svg",
+      showTagIcon: true,
+      isCache: true,
+    },
+  ],
+},
+```
+
+直接按照如上格式将外网链接放在path路径下，内嵌文档需要更改前缀，例如/main/iframe/vue，以防导航页面冲突
